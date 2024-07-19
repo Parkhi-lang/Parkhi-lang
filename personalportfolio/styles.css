@@ -1,0 +1,316 @@
+body{
+  width:100vw;
+  height:100vh;
+  margin:0;
+  padding:0;
+  color:white;
+  font-family:monaco;
+  background-color:black;
+}
+#navbar{
+  position:fixed;
+  display:flex;
+ 
+ width:100vw;
+ height:15vh;
+   background-color:rgb(255,255,255,0.1);	
+
+}
+
+
+.nav-list{
+  text-align:center;
+  display:flex;
+ /* border:2px solid;*/
+justify-content:space-around;
+  width:100%;
+  font-size:45px;
+  height:fit-content;
+  position:absolute;
+  
+ 
+}
+.nav-list a{
+  text-decoration:none;
+  color:white;
+  
+  font-weight:bold;
+  font-size:30px;
+   font-family:verdana;
+}
+a:hover{
+  
+  padding:10px;
+  border-radius:20px;
+  text-shadow: 2px 2px 8px black ;
+  transform:rotate(369deg);
+
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.nav-list li{
+  list-style:none;
+  margin-right:10%;
+  text-align:center;
+  
+   margin-top:-20px;
+}
+#nav{
+  
+
+  width:100vw;
+
+}
+
+
+
+.div{
+  
+  
+  display:flex;
+  text-align:center;
+  width:100%;
+}
+
+#welcome-section h1{
+   color:white;
+   font-family:verdana;
+}
+.welcome.left{
+  
+  width:70%;
+  background-image:linear-gradient( to bottom right,rgb(19, 19, 44),rgb(5, 38, 110),blue,rgb(13, 0, 128) );
+  box-shadow:10px 10px 5px inset blue ;
+  
+}
+.welcome.right{
+ background-image: linear-gradient(to bottom right, rgb(143, 79, 5), yellow,orange);
+
+width:30%;
+
+}
+.welcome{
+  
+  display:inline-block;
+}
+.intro{
+  display:inline-block;
+margin-left:15%;
+margin-right:20%;
+/*
+border:2px solid;*/
+text-align:left;
+font-size:50px;
+margin-top:20%;
+
+
+}
+.para{
+  /*border:2px solid;*/
+  text-align:left;
+margin-top:-20px;
+  font-size:35px;
+  width:45%;
+  margin-left:21%;
+  margin-right:20%;
+  margin-bottom:20%;
+  overflow:hidden;
+  color:white;
+  font-family:verdana;
+  
+}
+.image{
+  position:relative;
+ border:5px solid;
+ width:350px;
+ height:350px;
+ margin-top:160px;
+ overflow:hidden;
+ margin-left:-100%;
+border-radius:100%;
+ box-shadow: 10px 10px 5px rgb(92, 92, 49); 
+
+
+}
+
+#skills{
+ margin-top:100px;
+ background-image:url("https://static.vecteezy.com/system/resources/previews/007/696/691/original/abstract-blue-speed-light-effect-on-black-background-illustration-free-vector.jpg");
+ background-size:cover;background-position:center;
+ border:5px solid black;
+ 
+}
+#skills h1{
+  display:block;
+ text-align:center;
+  font-size:50px;
+  color:white;
+  margin-top:150px;
+}
+.one,.two,.three{
+  margin: 100px 50px;
+  display:flex;
+ 
+}
+.one img,.two img,.three img,.four img{ 
+  box-shadow:10px 10px 5px rgb(61, 54, 54);
+   border:2px solid;
+  width:200px;
+  height:200px;
+  margin-left:30px;
+  border-radius:20% 0 20% 0;
+}
+.two,.three,.four{
+  margin-top:-70px;
+}
+.three{
+  margin-left:13%;
+}
+.four{
+  margin-left:20%;
+  margin-bottom:50px;
+}
+#skills p{
+  display:block;
+  width:80%;
+ font-size:40px;
+ margin-left:150px;
+ text-align:center;
+ 
+ 
+overflow:hidden;
+
+}
+.skill{
+  margin-left:13%;
+}
+#projects{
+  
+  margin-top:150px;
+  border:5px solid black;background-color:#1837cf;
+}
+.projects{
+  overflow:hidden;
+   margin: 0 80px;
+width:90%;
+background-color:rgb(238, 238, 59);
+box-shadow:10px 10px rgb(92, 92, 49) 5px;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  border:5px solid black;
+  margin-bottom:80px;
+  margin-top:80px;
+ 
+}
+#projects h3,h1{
+  margin-top:3%;
+  font-size:40px;
+  text-align:center;
+  color:black;
+}
+#projects h1{
+  margin-top:50px;
+  color:white;
+  
+}
+.project-tile{
+ margin:20px;
+  border:5px solid black;
+  width:500px;
+  height:400px;
+  box-shadow:10px 10px 5px rgb(92, 92, 49);
+  text-decoration:none;
+  margin-bottom:100px;
+  border-radius:5%;
+  margin-top:100px;
+ 
+}
+.project-tile img{
+  width:450px;
+  margin-left:25px;
+  height:300px;
+  margin-top:20px;
+  border:4px solid black;
+}
+#three,#four,#five{
+  margin-top:-10px;
+}
+#contacts{
+  margin-top:100px;
+  border:5px solid black;
+  
+}
+#contacts h1{
+ text-align:center;
+ font-size:70px;
+ margin-top:80px;
+  color:white;
+}
+#contacts h3{
+  text-align:center;
+  font-size:40px;
+  font-weight:normal;
+  margin-top:-20px;
+}
+#contacts div{
+  margin-left:15%;
+  margin-top:100px;
+  margin-bottom:200px;
+}
+#contacts img{
+  width:250px;
+ height:250px;
+ border-radius:100%;
+ border:5px solid;
+ margin-left:30px;
+ box-shadow:10px 10px 5px rgb(53, 51, 51);
+ 
+}
+#contacts a:hover{
+  color:black;
+  background-color:rgb(59, 55, 55);
+}
+#contacts a{
+  text-decoration:none;
+  color:white;
+  width:250px;
+ height:250px;
+ border-radius:100%;
+}
+footer h5{
+  font-size:30px;
+  text-align:right;
+  margin-bottom:300px;
+  
+  
+}
+.footer{
+  border-top:5px solid;
+  margin:20px 50px;
+  margin-bottom:100px;
+  height:20%;
+  
+}
+@media screen and (max-width:600px){
+  body{
+    font-size:16px;
+  }
+  img{
+    width:200px;
+    height:200px;
+  }
+}
+
+
+
+
+
