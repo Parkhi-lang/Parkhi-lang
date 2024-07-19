@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Youtube survey form</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">YOUTUBE SURVEY FORM</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form action="www.youtube.com" id="survey-form">
+      <fieldset class="first">
+<label  for="name" id="name-label">Name </label> <input  id="name" type="text" required placeholder="Enter your name"/>
+<label for="email" id="email-label">Email</label> <input type="email" id="email" required placeholder="Enter your email"/>
+<label for="number" id="number-label">Age</label> <input type="number" min="2" max="120" required placeholder="Digit" id="number"/>
+      </fieldset>
+      <fieldset class="second">
+       <legend> Do you find your youtube feed relevent?</legend>
+         <label class="radio" for="yes"> </label><input type="radio" id="yes" required name="feed" value="sports"/> Yes
+         <label  for="no" class="radio"></label><input type="radio" id="no" name="feed" required value="sports"/> No
+         
+         <label class="region">Which region do you belong to? </label>
+           <select class="options" id="dropdown">
+             <option>(select one)</option>
+             <option>Asia</option>
+             <option>Africa</option>
+             <option>Europe</option>
+             <option>America</option>
+             <option>Australia</option>
+           </select>
+           <legend class="genre">Preffered genre? </legend> 
+             <label for="first"> </label><input type="checkbox"  id="first" checked value="sports"> Haul
+           
+             <label for="second"></label><input type="checkbox"  id="second" value="sports"> Vlogs
+           
+            <label for="third"></label><input type="checkbox"  id="third" value="sports"> Gaming
+           
+            <label for="fourth"></label><input type="checkbox"  id="fourth" value="sports"> Educational
+           
+            <label for="fifth"></label><input type="checkbox"  id="fifth" value="sports"> Review
+           
+            <label for="six"></label><input type="checkbox"  id="six" value="sports"> Music
+            
+           <label for="seventh"></label><input type="checkbox"  id="seventh" value="sports"> Vtuber
+           
+            <label for="eight"></label><input type="checkbox"  id="eight" value="sports"> Makeup
+           
+           <label for="nine"></label><input type="checkbox"  id="nine" value="sports"> Sports
+           
+           <label for="ten"></label><input type="checkbox"  id="ten" value="other"> Other
+           
+         
+      </fieldset>
+      <fieldset class="third">
+        <label for="text">Any comments or suggestions?
+          <textarea id="text" placehoder="add a comment"></textarea>
+        </label>
+      </fieldset>
+      
+    <button type="submit" id="submit">Submit</button>
+      </form>
+
+    </body>
+
+</html>
